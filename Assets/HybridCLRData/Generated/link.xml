@@ -116,7 +116,6 @@
     <type fullname="MessengerComponent" preserve="all" />
     <type fullname="MessengerInfo" preserve="all" />
     <type fullname="RegistFunction" preserve="all" />
-    <type fullname="SerializableDictionary`2" preserve="all" />
     <type fullname="Singleton`1" preserve="all" />
     <type fullname="SingletonMono`1" preserve="all" />
     <type fullname="UIButtonSuper" preserve="all" />
@@ -264,10 +263,6 @@
     <type fullname="Cysharp.Threading.Tasks.UniTask/Awaiter" preserve="all" />
     <type fullname="Cysharp.Threading.Tasks.UniTask`1" preserve="all" />
     <type fullname="Cysharp.Threading.Tasks.UniTask`1/Awaiter" preserve="all" />
-  </assembly>
-  <assembly fullname="Unity.RenderPipelines.Universal.Runtime">
-    <type fullname="UnityEngine.Rendering.Universal.CameraRenderType" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
   </assembly>
   <assembly fullname="Unity.TextMeshPro">
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />

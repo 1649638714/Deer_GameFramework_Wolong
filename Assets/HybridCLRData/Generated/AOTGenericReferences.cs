@@ -13,30 +13,29 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	//GameFramework.GameFrameworkAction`1<System.Object>
 	//GameFramework.GameFrameworkAction`2<System.Byte,UnityEngine.Vector3>
 	//GameFramework.ObjectPool.IObjectPool`1<System.Object>
-	//Google.Protobuf.Collections.RepeatedField`1<System.Int64>
 	//Google.Protobuf.Collections.RepeatedField`1<System.Int32>
+	//Google.Protobuf.Collections.RepeatedField`1<System.Int64>
 	//Google.Protobuf.Collections.RepeatedField`1<System.Object>
 	//Google.Protobuf.IDeepCloneable`1<System.Object>
 	//Google.Protobuf.IMessage`1<System.Object>
 	//Google.Protobuf.MessageParser`1<System.Object>
-	//SerializableDictionary`2<System.Object,System.Object>
 	//Singleton`1<System.Object>
 	//SingletonMono`1<System.Object>
 	//System.Action`1<System.Int64>
-	//System.Action`1<System.Object>
 	//System.Action`1<System.Int32>
+	//System.Action`1<System.Object>
 	//System.Action`2<System.Object,System.Object>
 	//System.Action`2<System.Byte,System.Object>
 	//System.Collections.Generic.Dictionary`2<System.Object,System.Object>
-	//System.Collections.Generic.Dictionary`2<cfg.Error.EErrorCode,System.Object>
 	//System.Collections.Generic.Dictionary`2<TextShowComponentType,System.Object>
+	//System.Collections.Generic.Dictionary`2<cfg.Error.EErrorCode,System.Object>
 	//System.Collections.Generic.Dictionary`2<UIFormId,System.Int32>
 	//System.Collections.Generic.Dictionary`2<System.Object,System.Int32>
 	//System.Collections.Generic.Dictionary`2<System.Int32,System.Object>
 	//System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Object>
 	//System.Collections.Generic.Dictionary`2/Enumerator<TextShowComponentType,System.Object>
-	//System.Collections.Generic.Dictionary`2/Enumerator<UIFormId,System.Int32>
 	//System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
+	//System.Collections.Generic.Dictionary`2/Enumerator<UIFormId,System.Int32>
 	//System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Int32>
 	//System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Object>
 	//System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>
@@ -45,30 +44,30 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	//System.Collections.Generic.HashSet`1/Enumerator<System.Object>
 	//System.Collections.Generic.IEnumerator`1<System.Object>
 	//System.Collections.Generic.IList`1<System.Object>
-	//System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32>
-	//System.Collections.Generic.KeyValuePair`2<System.Int64,System.Object>
 	//System.Collections.Generic.KeyValuePair`2<TextShowComponentType,System.Object>
-	//System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
 	//System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
 	//System.Collections.Generic.KeyValuePair`2<UIFormId,System.Int32>
+	//System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32>
+	//System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+	//System.Collections.Generic.KeyValuePair`2<System.Int64,System.Object>
 	//System.Collections.Generic.LinkedList`1<System.Object>
 	//System.Collections.Generic.LinkedListNode`1<System.Object>
+	//System.Collections.Generic.List`1<UnityEngine.Vector3>
+	//System.Collections.Generic.List`1<System.Int32>
+	//System.Collections.Generic.List`1<System.Int16>
+	//System.Collections.Generic.List`1<System.Single>
+	//System.Collections.Generic.List`1<System.Double>
+	//System.Collections.Generic.List`1<UnityEngine.Vector2>
 	//System.Collections.Generic.List`1<UnityEngine.Touch>
 	//System.Collections.Generic.List`1<System.Object>
-	//System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
-	//System.Collections.Generic.List`1<System.Int16>
-	//System.Collections.Generic.List`1<System.Double>
-	//System.Collections.Generic.List`1<System.Int32>
 	//System.Collections.Generic.List`1<System.Int64>
-	//System.Collections.Generic.List`1<System.Single>
-	//System.Collections.Generic.List`1<UnityEngine.Vector3>
-	//System.Collections.Generic.List`1<UnityEngine.Vector2>
-	//System.Collections.Generic.List`1/Enumerator<System.Object>
-	//System.Collections.Generic.List`1/Enumerator<UnityEngine.Touch>
+	//System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
 	//System.Collections.Generic.List`1/Enumerator<System.Int32>
+	//System.Collections.Generic.List`1/Enumerator<UnityEngine.Touch>
+	//System.Collections.Generic.List`1/Enumerator<System.Object>
+	//System.Collections.Generic.Queue`1<System.Object>
 	//System.Collections.Generic.Queue`1<System.Int64>
 	//System.Collections.Generic.Queue`1<System.Int32>
-	//System.Collections.Generic.Queue`1<System.Object>
 	//System.Collections.Generic.SortedDictionary`2<System.Int64,System.Object>
 	//System.Collections.Generic.SortedDictionary`2/Enumerator<System.Int64,System.Object>
 	//System.Comparison`1<System.Object>
@@ -77,21 +76,21 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	//System.Func`2<System.Object,Cysharp.Threading.Tasks.UniTask`1<System.Object>>
 	//System.Func`3<System.Object,System.Int32,System.Object>
 	//System.IEquatable`1<System.Object>
-	//System.Nullable`1<UnityEngine.Color>
 	//System.Nullable`1<System.Int32>
-	//System.Predicate`1<UnityEngine.Touch>
+	//System.Nullable`1<UnityEngine.Color>
 	//System.Predicate`1<System.Object>
+	//System.Predicate`1<UnityEngine.Touch>
 	//System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Byte>
-	//System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte>
 	//System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>
+	//System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte>
 	//System.Threading.Tasks.Task`1<System.Object>
 	//System.Threading.Tasks.Task`1<System.Byte>
 	//System.Threading.Tasks.TaskCompletionSource`1<System.Byte>
 	//System.Threading.Tasks.TaskCompletionSource`1<System.Object>
-	//UnityEngine.Events.UnityAction`1<System.Object>
 	//UnityEngine.Events.UnityAction`1<System.Single>
-	//UnityEngine.Events.UnityEvent`1<System.Single>
+	//UnityEngine.Events.UnityAction`1<System.Object>
 	//UnityEngine.Events.UnityEvent`1<System.Object>
+	//UnityEngine.Events.UnityEvent`1<System.Single>
 	//UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>
 	// }}
 
@@ -126,10 +125,10 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 		// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Byte>::Start<TimerComponent/<FrameAsync>d__22>(TimerComponent/<FrameAsync>d__22&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte>,UGFExtensions.CancellationToken/<CancelAfter>d__5>(System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte>&,UGFExtensions.CancellationToken/<CancelAfter>d__5&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,UGFExtensions.Texture.TextureSetComponent/<SetTextureByNetworkAsync>d__24>(System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>&,UGFExtensions.Texture.TextureSetComponent/<SetTextureByNetworkAsync>d__24&)
-		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,UGFExtensions.Texture.TextureSetComponent/<SetTextureByResourcesAsync>d__30>(System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>&,UGFExtensions.Texture.TextureSetComponent/<SetTextureByResourcesAsync>d__30&)
+		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,UGFExtensions.Texture.TextureSetComponent/<SetTextureByResourcesAsync>d__32>(System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>&,UGFExtensions.Texture.TextureSetComponent/<SetTextureByResourcesAsync>d__32&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.UniTask`1/Awaiter<System.Object>,ConfigComponent/<LoadAllUserConfig>d__6>(Cysharp.Threading.Tasks.UniTask`1/Awaiter<System.Object>&,ConfigComponent/<LoadAllUserConfig>d__6&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,UGFExtensions.SpriteCollection.SpriteCollectionComponent/<SetSpriteAsync>d__17>(System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>&,UGFExtensions.SpriteCollection.SpriteCollectionComponent/<SetSpriteAsync>d__17&)
-		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<UGFExtensions.Texture.TextureSetComponent/<SetTextureByResourcesAsync>d__30>(UGFExtensions.Texture.TextureSetComponent/<SetTextureByResourcesAsync>d__30&)
+		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<UGFExtensions.Texture.TextureSetComponent/<SetTextureByResourcesAsync>d__32>(UGFExtensions.Texture.TextureSetComponent/<SetTextureByResourcesAsync>d__32&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<UGFExtensions.SpriteCollection.SpriteCollectionComponent/<SetSpriteAsync>d__17>(UGFExtensions.SpriteCollection.SpriteCollectionComponent/<SetSpriteAsync>d__17&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<UGFExtensions.Texture.TextureSetComponent/<SetTextureByNetworkAsync>d__24>(UGFExtensions.Texture.TextureSetComponent/<SetTextureByNetworkAsync>d__24&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<UGFExtensions.CancellationToken/<CancelAfter>d__5>(UGFExtensions.CancellationToken/<CancelAfter>d__5&)

@@ -1,6 +1,6 @@
 using Cinemachine;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
+//using UnityEngine.Rendering.Universal;
 
 public partial class CameraComponent
 {
@@ -11,8 +11,8 @@ public partial class CameraComponent
     {
         GameObject goCamera = GameObject.FindGameObjectWithTag("UICamera");
         m_UICamera = goCamera.GetComponent<Camera>();
-        m_UICamera.GetComponent<UniversalAdditionalCameraData>().renderType = CameraRenderType.Overlay;
-        MainCamera.GetComponent<UniversalAdditionalCameraData>().cameraStack.Add(m_UICamera);
+       // m_UICamera.GetComponent<UniversalAdditionalCameraData>().renderType = CameraRenderType.Overlay;
+       // MainCamera.GetComponent<UniversalAdditionalCameraData>().cameraStack.Add(m_UICamera);
     }
 
 

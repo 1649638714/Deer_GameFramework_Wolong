@@ -8,7 +8,7 @@
 // ===============================================
 using Cinemachine;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
+//using UnityEngine.Rendering.Universal;
 using UnityGameFramework.Runtime;
 
 public enum CameraType 
@@ -38,7 +38,7 @@ public partial class CameraComponent : GameFrameworkComponent
     /// 主相机
     /// </summary>
     private Camera m_MainCamera;
-    private UniversalAdditionalCameraData m_MainCameraUniData;
+  //  private UniversalAdditionalCameraData m_MainCameraUniData;
     public Camera MainCamera 
     {
         get => m_MainCamera;
@@ -58,7 +58,7 @@ public partial class CameraComponent : GameFrameworkComponent
         base.Awake();
 
         m_MainCamera = transform.Find("MainCamera").GetComponent<Camera>();
-        m_MainCameraUniData = m_MainCamera.GetComponent<UniversalAdditionalCameraData>();
+     //   m_MainCameraUniData = m_MainCamera.GetComponent<UniversalAdditionalCameraData>();
         m_CurUseCamera = m_MainCamera;
         OnFreeLookAwark();
         
