@@ -559,7 +559,11 @@ namespace GameFramework.Fsm
         /// <typeparam name="TState">要切换到的有限状态机状态类型。</typeparam>
         internal void ChangeState<TState>() where TState : FsmState<T>
         {
-            ChangeState(typeof(TState));
+
+            var A = typeof(TState);
+            Log.Info($"<color=green>进入了=>{A}流程</color>");
+
+            ChangeState(A);
         }
 
         /// <summary>

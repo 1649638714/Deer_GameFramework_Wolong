@@ -65,7 +65,7 @@ SpriteAtlas:
   - SelectRace_Race_04
   - SelectRace_Race_05
   - SelectRace_Race_03
-  - Blank_Slot
+  - BlankSlot
   - SelectRace_Points_Left
   - SelectRace_Points_Center
   m_RenderDataMap: {}

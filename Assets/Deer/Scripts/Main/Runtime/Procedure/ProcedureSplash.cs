@@ -7,6 +7,7 @@
 //版 本:0.1 
 // ===============================================
 using GameFramework.Resource;
+using UnityEngine.Rendering;
 using UnityGameFramework.Runtime;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
 
@@ -22,6 +23,7 @@ namespace Main.Runtime.Procedure
             // TODO: 这里可以播放一个 Splash 动画
             // ...
 
+            
             if (GameEntryMain.Base.EditorResourceMode)
             {
                 // 可更新模式

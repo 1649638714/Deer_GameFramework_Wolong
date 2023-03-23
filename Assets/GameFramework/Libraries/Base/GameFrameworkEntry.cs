@@ -43,7 +43,7 @@ namespace GameFramework
             s_GameFrameworkModules.Clear();
             ReferencePool.ClearAll();
             Utility.Marshal.FreeCachedHGlobal();
-            GameFrameworkLog.SetLogHelper(null);
+            Log.SetLogHelper(null);
         }
 
         /// <summary>

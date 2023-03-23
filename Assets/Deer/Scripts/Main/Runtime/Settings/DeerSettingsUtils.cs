@@ -18,7 +18,9 @@ using UnityEngine;
 /// </summary>
 public static class DeerSettingsUtils
 {
-
+    /// <summary>
+    /// 获取resources文件夹下的DeerGlobalSettings
+    /// </summary>
     private static readonly string DeerGlobalSettingsPath = $"Settings/DeerGlobalSettings";
     private static DeerSettings m_DeerGlobalSettings;
     public static FrameworkGlobalSettings FrameworkGlobalSettings { get { return DeerGlobalSettings.FrameworkGlobalSettings; } }

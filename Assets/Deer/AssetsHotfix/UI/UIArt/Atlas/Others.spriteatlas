@@ -47,7 +47,7 @@ SpriteAtlas:
   m_PackedSpriteNamesToIndex:
   - Pause_Icon_Quit
   - Icon_star1_light
-  - Button_s_Off
+  - ButtonOff
   - Icon_star1_gray
   - Coin_Hexagon
   m_RenderDataMap: {}

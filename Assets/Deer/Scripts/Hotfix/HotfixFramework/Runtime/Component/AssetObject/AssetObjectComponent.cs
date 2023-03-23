@@ -13,6 +13,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityGameFramework.Runtime;
+using Log = UnityGameFramework.Runtime.Log;
 
 namespace HotfixFramework.Runtime
 {

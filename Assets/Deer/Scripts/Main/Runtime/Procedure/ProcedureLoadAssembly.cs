@@ -17,6 +17,7 @@ using HybridCLR;
 #endif
 using UnityEngine;
 using UnityGameFramework.Runtime;
+using Log = UnityGameFramework.Runtime.Log;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
 
 enum LoadImageErrorCode
@@ -32,21 +33,29 @@ enum LoadImageErrorCode
 
 namespace Main.Runtime.Procedure
 {
+    /// <summary>
+    /// 进入aot读取流程
+    /// </summary>
     public class ProcedureLoadAssembly : ProcedureBase
     {
         public override bool UseNativeDialog => true;
 
         private LoadAssetCallbacks m_LoadAssetCallbacks;
         private LoadAssetCallbacks m_LoadMetadataAssetCallbacks;
+        [Header("剩余多少需要加载的Asset")]
         private int m_LoadAssetCount;
         private int m_LoadMetadataAssetCount;
         private int m_FailureAssetCount;
         private int m_FailureMetadataAssetCount;
+        /// <summary>
+        /// 加载完毕了
+        /// </summary>
         private bool m_LoadAssemblyComplete;
         private bool m_LoadMetadataAssemblyComplete;
         private bool m_LoadAssemblyWait;
         private bool m_LoadMetadataAssemblyWait;
         private Assembly m_MainLogicAssembly;
+        [Header("全部热更程序集")]
         private List<Assembly> m_HotfixAssemblys;
         protected override void OnEnter(ProcedureOwner procedureOwner)
         {
@@ -94,6 +103,10 @@ namespace Main.Runtime.Procedure
             if (0 == m_LoadAssetCount) m_LoadAssemblyComplete = true;
         }
 
+        /// <summary>
+        /// 获取主逻辑程序集
+        /// </summary>
+        /// <returns></returns>
         private Assembly GetMainLogicAssembly()
         {
             Assembly mainLogicAssembly = null;
@@ -104,6 +117,7 @@ namespace Main.Runtime.Procedure
                 {
                     mainLogicAssembly = asm;
                 }
+                //加载程序集
                 foreach (var hotUpdateDllName in DeerSettingsUtils.HybridCLRCustomGlobalSettings.HotUpdateAssemblies)
                 {
                     if (hotUpdateDllName == $"{asm.GetName().Name}.dll")
@@ -136,6 +150,13 @@ namespace Main.Runtime.Procedure
             GameEntryMain.UI.CloseUIWithUIGroup("Default");
         }
 
+        /// <summary>
+        /// Aot加载成功事件
+        /// </summary>
+        /// <param name="assetName"></param>
+        /// <param name="asset"></param>
+        /// <param name="duration"></param>
+        /// <param name="userData"></param>
         private void LoadAssetSuccess(string assetName, object asset, float duration, object userData)
         {
             m_LoadAssetCount--;
@@ -182,26 +203,27 @@ namespace Main.Runtime.Procedure
                 Log.Fatal("Main logic assembly missing.");
                 return;
             }
-            var appType = m_MainLogicAssembly.GetType("AppMain");
+            var appType = m_MainLogicAssembly.GetType("AppMain");//拿到appmain
             if (null == appType)
             {
                 Log.Fatal("Main logic type 'AppMain' missing.");
                 return;
             }
-            var entryMethod = appType.GetMethod("Entrance");
+            var entryMethod = appType.GetMethod("Entrance");//拿到appmain.Entrance
             if (null == entryMethod)
             {
                 Log.Fatal("Main logic entry method 'Entrance' missing.");
                 return;
             }
             object[] objects = new object[] { new object[] { m_HotfixAssemblys } };
+            ///开始执行热更逻辑
             entryMethod.Invoke(appType, objects);
         }
 
         /// <summary>
         /// 为aot assembly加载原始metadata， 这个代码放aot或者热更新都行。
         /// 一旦加载后，如果AOT泛型函数对应native实现不存在，则自动替换为解释模式执行
-        /// </summary>
+        /// </summary>s
         public unsafe void LoadMetadataForAOTAssembly()
         {
             // 可以加载任意aot assembly的对应的dll。但要求dll必须与unity build过程中生成的裁剪后的dll一致，而不能直接使用原始dll。

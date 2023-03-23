@@ -77,7 +77,6 @@ namespace GameFramework.Fsm
             {
                 throw new GameFrameworkException("FSM is invalid.");
             }
-
             fsmImplement.ChangeState<TState>();
         }
 

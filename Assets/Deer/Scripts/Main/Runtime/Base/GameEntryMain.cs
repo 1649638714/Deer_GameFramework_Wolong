@@ -9,6 +9,8 @@ using System.Xml;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityGameFramework.Runtime;
+using Log = UnityGameFramework.Runtime.Log;
+
 /// <summary>
 /// 游戏入口。
 /// </summary>

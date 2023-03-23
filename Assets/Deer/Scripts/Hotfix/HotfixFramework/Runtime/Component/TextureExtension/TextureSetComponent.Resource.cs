@@ -2,6 +2,7 @@ using GameFramework;
 using GameFramework.Resource;
 using UnityEngine;
 using UnityGameFramework.Runtime;
+using Log = UnityGameFramework.Runtime.Log;
 
 namespace UGFExtensions.Texture
 {

@@ -17,6 +17,9 @@ namespace HotfixBusiness.Procedure
 {
     public class ProcedurePreload : ProcedureBase
     {
+        /// <summary>
+        /// 流程持有者
+        /// </summary>
         private ProcedureOwner m_procedureOwner = null;
         private HashSet<string> m_LoadConfigFlag = new HashSet<string>();
 
@@ -24,8 +27,9 @@ namespace HotfixBusiness.Procedure
         {
             base.OnEnter(procedureOwner);
 
+            ///定位程序热更新程序输入时预加载
             Debug.Log("tackor HotFix ProcedurePreload OnEnter");
-
+            ///进入的最开始的加载流程
             m_procedureOwner = procedureOwner;
             //初始化所有角色信息管理器
             DataUserManager.Instance.enabled = true;

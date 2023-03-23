@@ -47,7 +47,7 @@ SpriteAtlas:
   m_PackedSpriteNamesToIndex:
   - MainMenu_Image_04
   - MainMenu_Image_05
-  - MainMenu_Image_01
+  - MainMenuImage01
   - MainMenu_Image_03
   - MainMenu_Image_02
   m_RenderDataMap: {}

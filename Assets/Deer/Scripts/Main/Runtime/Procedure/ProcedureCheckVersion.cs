@@ -13,6 +13,7 @@ using Main.Runtime.UI;
 using System.IO;
 using UnityEngine;
 using UnityGameFramework.Runtime;
+using Log = UnityGameFramework.Runtime.Log;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
 
 namespace Main.Runtime.Procedure
@@ -48,7 +49,7 @@ namespace Main.Runtime.Procedure
             //检查设备是否能够访问互联网
             if (Application.internetReachability == NetworkReachability.NotReachable)
             {
-                Log.Info("The device is not connected to the network");
+                Log.Info("The device is not connected to the network\n网络连接失败 请重试！");
                 return;
             }
             m_UpdateVersionListCallbacks = new UpdateVersionListCallbacks(OnUpdateResourcesVersionListSuccess, OnUpdateResourcesVersionListFailure);

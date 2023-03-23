@@ -7,7 +7,7 @@
 
 namespace GameFramework
 {
-    public static partial class GameFrameworkLog
+    public static partial class Log
     {
         /// <summary>
         /// 游戏框架日志辅助器接口。

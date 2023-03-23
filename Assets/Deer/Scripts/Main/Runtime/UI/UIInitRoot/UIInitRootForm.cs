@@ -3,7 +3,7 @@
 //作 者:AlanDu
 //创建时间:2023-01-03 14-28-34
 //修改作者:AlanDu
-//修改时间:2023-01-03 18-15-04
+//修改时间:2023-03-20 14-44-21
 //版 本:0.1 
 // ===============================================
 
@@ -53,7 +53,7 @@ namespace Main.Runtime.UI
 		}
 		public void OnOpenLoadingForm(bool isOpen)
 		{
-			m_Trans_LoadingForm.gameObject.SetActive(isOpen);
+			m_Trans_LoadingForm.gameObject.SetActive(isOpen);//打开进图条显示
 			m_Trans_LaunchView.gameObject.SetActive(false);
 		}
 		public void OnRefreshLoadingProgress(float curProgress,float totalProgress,string tips = "")

@@ -18,7 +18,7 @@ public class GMNetWindow : DeerGMNetWindowHelper
         //DataConfigGMTableInfo.Singleton().GetGMConfigList();
         //if (m_GMConfigs == null)
         //{
-        //    Log.Error("GM¹¤¾ßÅäÖÃ±í´íÎó");
+        //    Log.Error("GMå·¥å…·é…ç½®è¡¨é”™è¯¯");
         //}
     }
     public void OnDrawScrollableWindow()
@@ -67,7 +67,7 @@ public class GMNetWindow : DeerGMNetWindowHelper
             {
                 GUILayout.BeginHorizontal("box");
                 {
-                    if (GUILayout.Button("·¢ËÍÖ¸Áî", GUILayout.Height(30f)))
+                    if (GUILayout.Button("å‘é€æŒ‡ä»¤", GUILayout.Height(30f)))
                     {
                         ReqGmMessage();
                     }
@@ -86,14 +86,14 @@ public class GMNetWindow : DeerGMNetWindowHelper
         {
             return;
         }
-        //if (m_CurrentConfig != null && m_CurrentConfig.Side == 1)    //Ç°¶Ë×Ô¼º´¦Àí
+        //if (m_CurrentConfig != null && m_CurrentConfig.Side == 1)    //å‰ç«¯è‡ªå·±å¤„ç†
         //{
-        //    if (m_CurrentConfig.Code.StartsWith("Trigger.Instruction"))   //´¥·¢ĞÂÊÖÒıµ¼
+        //    if (m_CurrentConfig.Code.StartsWith("Trigger.Instruction"))   //è§¦å‘æ–°æ‰‹å¼•å¯¼
         //    {
         //        BGEvent.SendEvent(GameEvent.SysEvent.EVENT_SYS_GM_TRIGGER, m_SendCommand);
         //    }
         //}
-        //else                           //·şÎñÆ÷´¦Àí
+        //else                           //æœåŠ¡å™¨å¤„ç†
         //{
         //    LuaUtil.CallMethod("LuaUtil", "CallSendGMMsg", m_SendCommand);
         //}

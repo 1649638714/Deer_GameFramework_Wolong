@@ -58,13 +58,13 @@ SpriteAtlas:
   - Pause_Text_Settings
   - Pause_Icon_Restart
   - Pause_Board_Settings
-  - Pause_Icon_Quit
+  - PauseIconQuit
   - Pause_Text_Restart_Resume
   - Pause_Icon_Resume
   - Pause_Board_Shadow
   - Pause_Text_Quit
   - gamePlay
-  - Pause_Board_Quit
+  - PauseBoardQuit
   - Pause_Board_Restart
   m_RenderDataMap: {}
   m_Tag: Pause

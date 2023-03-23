@@ -8,6 +8,7 @@
 // ===============================================
 using GameFramework;
 using UnityGameFramework.Runtime;
+using Log = UnityGameFramework.Runtime.Log;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
 
 namespace Main.Runtime.Procedure

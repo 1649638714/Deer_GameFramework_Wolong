@@ -58,7 +58,7 @@ SpriteAtlas:
   - Parameters_Color_03
   - Button_Triangle_Pressed_Rev
   - ChooseVehicle_Player2_Color
-  - Button_Triangle_Pressed
+  - ButtonTrianglePressed
   - Parameters_Color_02
   - Parameters_Color_04
   - Parameters_Board

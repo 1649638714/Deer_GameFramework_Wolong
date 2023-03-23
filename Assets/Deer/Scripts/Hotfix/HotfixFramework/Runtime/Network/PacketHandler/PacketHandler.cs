@@ -12,6 +12,7 @@ using Deer;
 using GameFramework;
 using GameFramework.Network;
 using UnityGameFramework.Runtime;
+using Log = UnityGameFramework.Runtime.Log;
 
 public class SCHeartBeatHandler : PacketHandlerBase
 {

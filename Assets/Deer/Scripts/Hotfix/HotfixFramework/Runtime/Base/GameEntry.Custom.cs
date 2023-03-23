@@ -12,6 +12,8 @@ using UGFExtensions.SpriteCollection;
 using UGFExtensions.Texture;
 using UnityEngine;
 using UnityGameFramework.Runtime;
+using Log = UnityGameFramework.Runtime.Log;
+
 /// <summary>
 /// 游戏入口。
 /// </summary>
@@ -52,6 +54,7 @@ public partial class GameEntry
         GMNetWindow netWindow = new GMNetWindow();
         Debugger.SetGMNetWindowHelper(netWindow);
 
+        ///Debug扩展
         CustomSettingsWindow customSettingWindow = new CustomSettingsWindow();
         Debugger.SetCustomSettingWindowHelper(customSettingWindow);
     }
@@ -67,6 +70,7 @@ public partial class GameEntry
     /// </summary>
     private static void LoadCustomComponent() 
     {
+        ///加载·自定义
         GameEntryMain.Resource.LoadAsset("Assets/Deer/AssetsHotfix/GF/Customs.prefab", new LoadAssetCallbacks(LoadAssetSuccessCallback,LoadAssetFailureCallback));
     }
 
@@ -93,6 +97,7 @@ public partial class GameEntry
     }
     private static List<Assembly> m_HotfixAssemblys;
     private static ProcedureBase m_EntranceProcedureBase;
+    [Header("起始流程名字")]
     private static string m_EntranceProcedureTypeName = "HotfixBusiness.Procedure.ProcedurePreload";
     private static void ResetProcedure() 
     {
@@ -169,9 +174,13 @@ public partial class GameEntry
             UI.AddUIGroup(item.Key, item.Value, false);
         }
     }
+    /// <summary>
+    /// 热更程序初始化
+    /// </summary>
+    /// <param name="objects"></param>
     public static void Entrance(object[] objects) 
     {
-        m_HotfixAssemblys = (List<Assembly>)objects[0];
+        m_HotfixAssemblys = (List<Assembly>)objects[0];//全部热更程序集拿出来
         //初始化自定义调试器
         InitCustomDebuggers();
         InitComponentsSet();

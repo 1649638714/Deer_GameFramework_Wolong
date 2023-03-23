@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityGameFramework.Runtime;
+using Log = GameFramework.Log;
 
 namespace UnityGameFramework.Editor
 {
@@ -236,7 +237,7 @@ namespace UnityGameFramework.Editor
                 NoneOptionName
             };
 
-            logHelperTypeNames.AddRange(Type.GetRuntimeTypeNames(typeof(GameFrameworkLog.ILogHelper)));
+            logHelperTypeNames.AddRange(Type.GetRuntimeTypeNames(typeof(Log.ILogHelper)));
             m_LogHelperTypeNames = logHelperTypeNames.ToArray();
             m_LogHelperTypeNameIndex = 0;
             if (!string.IsNullOrEmpty(m_LogHelperTypeName.stringValue))

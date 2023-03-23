@@ -18,6 +18,7 @@ using Main.Runtime;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityGameFramework.Runtime;
+using Log = GameFramework.Log;
 
 namespace Deer
 {
@@ -85,6 +86,7 @@ namespace Deer
             {
                 //编辑器模式
                 filePath = Path.Combine(Application.dataPath,$"../LubanTools/GenerateDatas/{DeerSettingsUtils.FrameworkGlobalSettings.ConfigFolderName}",$"{file}.bytes");
+             //   Log.Info($"表路径 =》{filePath}");
                 if (!File.Exists(filePath))
                 {
                     Logger.Error("filepath:" + filePath + " not exists");

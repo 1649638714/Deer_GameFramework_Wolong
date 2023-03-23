@@ -43,14 +43,14 @@ public class CustomSettingsWindow : DeerCustomSettingWindowHelper
             {
                 GUILayout.BeginHorizontal("box");
                 {
-                    GUILayout.Label("°æ±¾ºÅ", GUILayout.Height(30f));
+                    GUILayout.Label("ç‰ˆæœ¬å·", GUILayout.Height(30f));
                     m_GameVersion = GUILayout.TextField(m_GameVersion, GUILayout.Height(30f));
-                    //if (GUILayout.Button("È·¶¨ĞŞ¸Ä", GUILayout.Height(30f)))
+                    //if (GUILayout.Button("ç¡®å®šä¿®æ”¹", GUILayout.Height(30f)))
                     //{
                     //    GameEntry.Builtin.ResourceVersion = m_GameVersion;
                     //}
 
-                    GUILayout.Label("ÓÎÏ·ËÙ¶È", GUILayout.Height(30f));
+                    GUILayout.Label("æ¸¸æˆé€Ÿåº¦", GUILayout.Height(30f));
 
                     if (GUILayout.Button("+", GUILayout.Height(30f)))
                     {
@@ -72,7 +72,7 @@ public class CustomSettingsWindow : DeerCustomSettingWindowHelper
                     //    //GameEntry.Base.GameSpeed = newGameSpeed.ToFloat();
                     //}
 
-                    GUILayout.Label("Í¬²½ËÙ¶È", GUILayout.Height(30f));
+                    GUILayout.Label("åŒæ­¥é€Ÿåº¦", GUILayout.Height(30f));
 
                     //m_SyncSpeed = GlobalConst.SyncFrequencySpan.ToString();
                     //string newSyncSpeed = GUILayout.TextField(m_SyncSpeed, GUILayout.Height(30f));
@@ -85,7 +85,7 @@ public class CustomSettingsWindow : DeerCustomSettingWindowHelper
                     //if (GameEntry.SceneData.AutoFight)
                     //{
                     //    GUI.color = Color.yellow;
-                    //    if (GUILayout.Button("¹Ø±Õ×Ô¶¯Õ½¶·", GUILayout.Height(30f)))
+                    //    if (GUILayout.Button("å…³é—­è‡ªåŠ¨æˆ˜æ–—", GUILayout.Height(30f)))
                     //    {
                     //        GameEntry.SceneData.AutoFight = false;
                     //    }
@@ -93,7 +93,7 @@ public class CustomSettingsWindow : DeerCustomSettingWindowHelper
                     //}
 
 
-                    if (GUILayout.Button("´òÓ¡½ÇÉ«×ø±ê", GUILayout.Height(30f)))
+                    if (GUILayout.Button("æ‰“å°è§’è‰²åæ ‡", GUILayout.Height(30f)))
                     {
                         //Character character = GameEntry.Character.GetMainPlayer();
                         //if (character)
@@ -109,31 +109,31 @@ public class CustomSettingsWindow : DeerCustomSettingWindowHelper
                     //if (GlobalCacheValueManager.IsCloseGuide)
                     //{
                     //    GUI.color = Color.yellow;
-                    //    if (GUILayout.Button("¿ªÆôÒıµ¼", GUILayout.Height(30f)))
+                    //    if (GUILayout.Button("å¼€å¯å¼•å¯¼", GUILayout.Height(30f)))
                     //    {
                     //        GlobalCacheValueManager.IsCloseGuide = false;
-                    //        PlayerPrefs.SetInt("CustomSettingWindow_¿ªÆôÒıµ¼", 0);
+                    //        PlayerPrefs.SetInt("CustomSettingWindow_å¼€å¯å¼•å¯¼", 0);
                     //    }
                     //    GUI.color = Color.white;
                     //}
                     //else
                     //{
-                    //    if (GUILayout.Button("¹Ø±ÕÒıµ¼", GUILayout.Height(30f)))
+                    //    if (GUILayout.Button("å…³é—­å¼•å¯¼", GUILayout.Height(30f)))
                     //    {
                     //        GlobalCacheValueManager.IsCloseGuide = true;
-                    //        PlayerPrefs.SetInt("CustomSettingWindow_¿ªÆôÒıµ¼", 1);
+                    //        PlayerPrefs.SetInt("CustomSettingWindow_å¼€å¯å¼•å¯¼", 1);
                     //    }
                     //}
 
-                    GUILayout.Label("¹Ø¿¨Id", GUILayout.Height(30f));
-                    m_QuickLevelId = PlayerPrefs.GetString("CustomSettingWindow_¿ìËÙ¹Ø¿¨", "");
+                    GUILayout.Label("å…³å¡Id", GUILayout.Height(30f));
+                    m_QuickLevelId = PlayerPrefs.GetString("CustomSettingWindow_å¿«é€Ÿå…³å¡", "");
                     m_QuickLevelId = GUILayout.TextField(m_QuickLevelId, GUILayout.Height(30f));
-                    PlayerPrefs.SetString("CustomSettingWindow_¿ìËÙ¹Ø¿¨", m_QuickLevelId);
-                    if (GUILayout.Button("¿ìËÙ¹Ø¿¨", GUILayout.Height(30f)))
+                    PlayerPrefs.SetString("CustomSettingWindow_å¿«é€Ÿå…³å¡", m_QuickLevelId);
+                    if (GUILayout.Button("å¿«é€Ÿå…³å¡", GUILayout.Height(30f)))
                     {
                         QucikLevel(m_QuickLevelId);
                     }
-                    if (GUILayout.Button("Çå³ıÓÃ»§Token²¢ÍË³öÓÎÏ·", GUILayout.Height(30f)))
+                    if (GUILayout.Button("æ¸…é™¤ç”¨æˆ·Tokenå¹¶é€€å‡ºæ¸¸æˆ", GUILayout.Height(30f)))
                     {
                         //QucikLevel(m_QuickLevelId);
                         PlayerPrefs.DeleteKey("Pref_Login_Token");
@@ -142,13 +142,13 @@ public class CustomSettingsWindow : DeerCustomSettingWindowHelper
                 }
                 GUILayout.EndHorizontal();
 
-                if (GUILayout.Button("Ò»¼üÉ±¹Ö", GUILayout.Height(30f)))
+                if (GUILayout.Button("ä¸€é”®æ€æ€ª", GUILayout.Height(30f)))
                 {
-                    Debug.Log("Ò»¼üÉ±¹Ö");
+                    Debug.Log("ä¸€é”®æ€æ€ª");
                     //GameEntry.Messenger.SendEvent(EventName.EVENT_CS_UTILS_FAILURE);
                 }
 
-                if (GUILayout.Button("»ØÂúµ¯Ò©", GUILayout.Height(30f)))
+                if (GUILayout.Button("å›æ»¡å¼¹è¯", GUILayout.Height(30f)))
                 {
                     //FullBullet();
                 }
@@ -157,27 +157,27 @@ public class CustomSettingsWindow : DeerCustomSettingWindowHelper
                 {
                     GUILayout.BeginHorizontal("box");
                     {
-                        GUILayout.Label("¹ÖÎïId", GUILayout.Height(30f));
-                        m_MonsterId = PlayerPrefs.GetString("CustomSettingWindow_¹ÖÎïId", "");
+                        GUILayout.Label("æ€ªç‰©Id", GUILayout.Height(30f));
+                        m_MonsterId = PlayerPrefs.GetString("CustomSettingWindow_æ€ªç‰©Id", "");
                         m_MonsterId = GUILayout.TextField(m_MonsterId, GUILayout.Height(30f));
-                        PlayerPrefs.SetString("CustomSettingWindow_¹ÖÎïId", m_MonsterId);
-                        GUILayout.Label("¹ÖÎï±êÇ©", GUILayout.Height(30f));
-                        m_MonsterLabel = PlayerPrefs.GetString("CustomSettingWindow_¹ÖÎï±êÇ©", "99");
+                        PlayerPrefs.SetString("CustomSettingWindow_æ€ªç‰©Id", m_MonsterId);
+                        GUILayout.Label("æ€ªç‰©æ ‡ç­¾", GUILayout.Height(30f));
+                        m_MonsterLabel = PlayerPrefs.GetString("CustomSettingWindow_æ€ªç‰©æ ‡ç­¾", "99");
                         m_MonsterLabel = GUILayout.TextField(m_MonsterLabel, GUILayout.Height(30f));
-                        PlayerPrefs.SetString("CustomSettingWindow_¹ÖÎï±êÇ©", m_MonsterLabel);
-                        GUILayout.Label("×ø±êx", GUILayout.Height(30f));
-                        m_MonsterPosx = PlayerPrefs.GetString("CustomSettingWindow_¹ÖÎï×ø±êx", "300");
+                        PlayerPrefs.SetString("CustomSettingWindow_æ€ªç‰©æ ‡ç­¾", m_MonsterLabel);
+                        GUILayout.Label("åæ ‡x", GUILayout.Height(30f));
+                        m_MonsterPosx = PlayerPrefs.GetString("CustomSettingWindow_æ€ªç‰©åæ ‡x", "300");
                         m_MonsterPosx = GUILayout.TextField(m_MonsterPosx, GUILayout.Height(30f));
-                        PlayerPrefs.SetString("CustomSettingWindow_¹ÖÎï×ø±êx", m_MonsterPosx);
-                        GUILayout.Label("×ø±êy", GUILayout.Height(30f));
-                        m_MonsterPosy = PlayerPrefs.GetString("CustomSettingWindow_¹ÖÎï×ø±êy", "0");
+                        PlayerPrefs.SetString("CustomSettingWindow_æ€ªç‰©åæ ‡x", m_MonsterPosx);
+                        GUILayout.Label("åæ ‡y", GUILayout.Height(30f));
+                        m_MonsterPosy = PlayerPrefs.GetString("CustomSettingWindow_æ€ªç‰©åæ ‡y", "0");
                         m_MonsterPosy = GUILayout.TextField(m_MonsterPosy, GUILayout.Height(30f));
-                        PlayerPrefs.SetString("CustomSettingWindow_¹ÖÎï×ø±êy", m_MonsterPosy);
-                        GUILayout.Label("×ø±êz", GUILayout.Height(30f));
-                        m_MonsterPosz = PlayerPrefs.GetString("CustomSettingWindow_¹ÖÎï×ø±êz", "0");
+                        PlayerPrefs.SetString("CustomSettingWindow_æ€ªç‰©åæ ‡y", m_MonsterPosy);
+                        GUILayout.Label("åæ ‡z", GUILayout.Height(30f));
+                        m_MonsterPosz = PlayerPrefs.GetString("CustomSettingWindow_æ€ªç‰©åæ ‡z", "0");
                         m_MonsterPosz = GUILayout.TextField(m_MonsterPosz, GUILayout.Height(30f));
-                        PlayerPrefs.SetString("CustomSettingWindow_¹ÖÎï×ø±êz", m_MonsterPosz);
-                        if (GUILayout.Button("Ë¢¹Ö", GUILayout.Height(30f)))
+                        PlayerPrefs.SetString("CustomSettingWindow_æ€ªç‰©åæ ‡z", m_MonsterPosz);
+                        if (GUILayout.Button("åˆ·æ€ª", GUILayout.Height(30f)))
                         {
                             //CreateCharacterData data = new CreateCharacterData();
                             //data.nConfigId = m_MonsterId.ToInt();
@@ -202,15 +202,15 @@ public class CustomSettingsWindow : DeerCustomSettingWindowHelper
                 {
                     GUILayout.BeginHorizontal("box");
                     {
-                        GUILayout.Label("²ÎÊı1", GUILayout.Height(30f));
+                        GUILayout.Label("å‚æ•°1", GUILayout.Height(30f));
                         m_Param1 = PlayerPrefs.GetString("CustomSettingWindow_m_Param1", "");
                         m_Param1 = GUILayout.TextField(m_Param1, GUILayout.Height(30f));
                         PlayerPrefs.SetString("CustomSettingWindow_m_Param1", m_Param1);
-                        GUILayout.Label("²ÎÊı2", GUILayout.Height(30f));
+                        GUILayout.Label("å‚æ•°2", GUILayout.Height(30f));
                         m_Param2 = PlayerPrefs.GetString("CustomSettingWindow_m_Param2", "");
                         m_Param2 = GUILayout.TextField(m_Param2, GUILayout.Height(30f));
                         PlayerPrefs.SetString("CustomSettingWindow_m_Param2", m_Param2);
-                        GUILayout.Label("²ÎÊı3", GUILayout.Height(30f));
+                        GUILayout.Label("å‚æ•°3", GUILayout.Height(30f));
                         m_Param3 = PlayerPrefs.GetString("CustomSettingWindow_m_Param3", "");
                         m_Param3 = GUILayout.TextField(m_Param3, GUILayout.Height(30f));
                         PlayerPrefs.SetString("CustomSettingWindow_m_Param3", m_Param3);
@@ -219,15 +219,15 @@ public class CustomSettingsWindow : DeerCustomSettingWindowHelper
 
                     GUILayout.BeginHorizontal("box");
                     {
-                        GUILayout.Label("²ÎÊı4", GUILayout.Height(30f));
+                        GUILayout.Label("å‚æ•°4", GUILayout.Height(30f));
                         m_Param4 = PlayerPrefs.GetString("CustomSettingWindow_m_Param4", "");
                         m_Param4 = GUILayout.TextField(m_Param4, GUILayout.Height(30f));
                         PlayerPrefs.SetString("CustomSettingWindow_m_Param4", m_Param4);
-                        GUILayout.Label("²ÎÊı5", GUILayout.Height(30f));
+                        GUILayout.Label("å‚æ•°5", GUILayout.Height(30f));
                         m_Param5 = PlayerPrefs.GetString("CustomSettingWindow_m_Param5", "");
                         m_Param5 = GUILayout.TextField(m_Param5, GUILayout.Height(30f));
                         PlayerPrefs.SetString("CustomSettingWindow_m_Param5", m_Param5);
-                        GUILayout.Label("²ÎÊı6", GUILayout.Height(30f));
+                        GUILayout.Label("å‚æ•°6", GUILayout.Height(30f));
                         m_Param6 = PlayerPrefs.GetString("CustomSettingWindow_m_Param6", "");
                         m_Param6 = GUILayout.TextField(m_Param6, GUILayout.Height(30f));
                         PlayerPrefs.SetString("CustomSettingWindow_m_Param6", m_Param6);
@@ -236,11 +236,11 @@ public class CustomSettingsWindow : DeerCustomSettingWindowHelper
 
                     GUILayout.BeginHorizontal("box");
                     {
-                        GUILayout.Label("½Å±¾ÀàĞÍ", GUILayout.Height(30f));
-                        m_ScriptType = PlayerPrefs.GetString("CustomSettingWindow_½Å±¾ÀàĞÍ", "");
+                        GUILayout.Label("è„šæœ¬ç±»å‹", GUILayout.Height(30f));
+                        m_ScriptType = PlayerPrefs.GetString("CustomSettingWindow_è„šæœ¬ç±»å‹", "");
                         m_ScriptType = GUILayout.TextField(m_ScriptType, GUILayout.Height(30f));
-                        PlayerPrefs.SetString("CustomSettingWindow_½Å±¾ÀàĞÍ", m_ScriptType);
-                        if (GUILayout.Button("Ö´ĞĞÉÏÊö²ÎÊıµÄ½Å±¾", GUILayout.Height(30f)))
+                        PlayerPrefs.SetString("CustomSettingWindow_è„šæœ¬ç±»å‹", m_ScriptType);
+                        if (GUILayout.Button("æ‰§è¡Œä¸Šè¿°å‚æ•°çš„è„šæœ¬", GUILayout.Height(30f)))
                         {
                             //GameEntry.Event.FireNow(KLKDDebuggerSettingChangeEventArgs.EventId, KLKDDebuggerSettingChangeEventArgs.Create(KLKDDebuggerSettingChangeEventArgs.CommandType.ExecuteScript, string.Format("{0}|{1}|{2}|{3}|{4}|{5}|{6}", m_ScriptType, m_Param1, m_Param2, m_Param3, m_Param4, m_Param5, m_Param6)));
                         }
@@ -251,13 +251,13 @@ public class CustomSettingsWindow : DeerCustomSettingWindowHelper
 
                 GUILayout.BeginHorizontal("box");
                 {
-                    GUILayout.Label("·Ö±æÂÊ¿í", GUILayout.Height(30f));
+                    GUILayout.Label("åˆ†è¾¨ç‡å®½", GUILayout.Height(30f));
                     m_SceneWidth = GUILayout.TextField(m_SceneWidth, GUILayout.Height(30f));
-                    GUILayout.Label("·Ö±æÂÊ¸ß", GUILayout.Height(30f));
+                    GUILayout.Label("åˆ†è¾¨ç‡é«˜", GUILayout.Height(30f));
                     m_SceneHigh = GUILayout.TextField(m_SceneHigh, GUILayout.Height(30f));
-                    if (GUILayout.Button("ÉèÖÃ·Ö±æÂÊ", GUILayout.Height(30f)))
+                    if (GUILayout.Button("è®¾ç½®åˆ†è¾¨ç‡", GUILayout.Height(30f)))
                     {
-                        //Screen.SetResolution(/*ÆÁÄ»¿í¶È*/m_SceneWidth.ToInt(),/*ÆÁÄ»¸ß¶È*/ m_SceneHigh.ToInt(), /*ÊÇ·ñÈ«ÆÁÏÔÊ¾*/false);
+                        //Screen.SetResolution(/*å±å¹•å®½åº¦*/m_SceneWidth.ToInt(),/*å±å¹•é«˜åº¦*/ m_SceneHigh.ToInt(), /*æ˜¯å¦å…¨å±æ˜¾ç¤º*/false);
                     }
                 }
                 GUILayout.EndHorizontal();

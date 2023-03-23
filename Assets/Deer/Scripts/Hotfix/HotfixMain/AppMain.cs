@@ -16,8 +16,13 @@ using UnityEngine;
 /// </summary>
 public static class AppMain 
 {
+    /// <summary>
+    /// 热更程序入口
+    /// </summary>
+    /// <param name="objects">全部热更程序集</param>
     public static void Entrance(object[] objects) 
     {
+        //打开进度条显示
         GameEntry.UI.DeerUIInitRootForm().OnOpenLoadingForm(true);
         GameEntry.Entrance(objects);
     }

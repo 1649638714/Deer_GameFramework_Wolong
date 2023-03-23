@@ -17,6 +17,7 @@ using GameFramework.Event;
 using GameFramework.Network;
 using Google.Protobuf;
 using UnityGameFramework.Runtime;
+using Log = UnityGameFramework.Runtime.Log;
 
 public class NetworkChannelHelper : INetworkChannelHelper, IReference
 {

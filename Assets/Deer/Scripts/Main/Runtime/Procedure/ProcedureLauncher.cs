@@ -9,6 +9,7 @@
 using GameFramework;
 using UnityEngine;
 using UnityGameFramework.Runtime;
+using Log = GameFramework.Log;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
 
 namespace Main.Runtime.Procedure
@@ -19,8 +20,9 @@ namespace Main.Runtime.Procedure
         protected override void OnEnter(ProcedureOwner procedureOwner)
         {
             //Debug.Log("tackor ProcedureLauncher OnEnter");
-
             base.OnEnter(procedureOwner);
+            
+            Log.Info($"<color=green>进入了入口流程</color>");
             GameEntryMain.UI.OpenUIInitRootForm();
             ChangeState<ProcedureSplash>(procedureOwner);
         }

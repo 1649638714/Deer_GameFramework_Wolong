@@ -11,6 +11,7 @@ using cfg.Deer;
 using GameFramework;
 using GameFramework.Sound;
 using UnityGameFramework.Runtime;
+using Log = UnityGameFramework.Runtime.Log;
 
 public static class SoundComponentExtension
 {

@@ -2,6 +2,7 @@
 using GameFramework;
 using GameFramework.Resource;
 using UnityGameFramework.Runtime;
+using Log = UnityGameFramework.Runtime.Log;
 
 public static partial class AssetUtility
 {

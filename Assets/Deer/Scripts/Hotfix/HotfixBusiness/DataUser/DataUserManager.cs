@@ -6,6 +6,7 @@ namespace HotfixBusiness.DataUser
     public class DataUserManager:SingletonMono<DataUserManager>
     {
         public static DataLoginInfoManager LoginInfo => _loginInfo ??= DataLoginInfoManager.Instance;
+
         private static DataLoginInfoManager _loginInfo;
         public static DataLevelInfoManager LevelInfo => _levelInfo ??= DataLevelInfoManager.Instance;
         private static DataLevelInfoManager _levelInfo;

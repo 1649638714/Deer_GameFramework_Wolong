@@ -30,7 +30,10 @@ public class ConfigComponent : GameFrameworkComponent
         Tables = await m_ConfigManager.LoadAllUserConfig();
         loadConfigCompleteCallback(true);
     }
-
+    /// <summary>
+    /// 仅移动读取路径配置版本文件
+    /// </summary>
+    /// <param name="moveConfigToReadWriteCallback"></param>
     public void MoveOnlyReadPathConfigVersionFile(MoveConfigToReadWriteCallback moveConfigToReadWriteCallback = null)
     {
         m_ConfigManager.AsynLoadOnlyReadPathConfigVersionFile(moveConfigToReadWriteCallback);

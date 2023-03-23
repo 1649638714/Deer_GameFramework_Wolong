@@ -7,7 +7,6 @@
       <Resource Name="AssetsHotfix/EntityPrefabs/DeerExample" LoadType="0" Packed="False" />
       <Resource Name="AssetsHotfix/EntityResources/DeerExample/Materials" LoadType="0" Packed="False" />
       <Resource Name="AssetsHotfix/EntityResources/DeerExample/Models" LoadType="0" Packed="False" />
-      <Resource Name="AssetsHotfix/EntityResources/DeerExample/Shaders" LoadType="0" Packed="False" />
       <Resource Name="AssetsHotfix/EntityResources/DeerExample/Textures" LoadType="0" Packed="False" />
       <Resource Name="AssetsHotfix/GameConfigs/MainCameraBlends" LoadType="0" Packed="False" />
       <Resource Name="AssetsHotfix/GF" LoadType="0" Packed="False" />
@@ -83,208 +82,204 @@
       <Resource Name="AssetsHotfix/UI/UITemplate/UIToggle" LoadType="0" Packed="False" />
     </Resources>
     <Assets>
-      <Asset Guid="00bd913633253674f901743c29525033" ResourceName="AssetsHotfix/Assemblies/Hotfix" />
       <Asset Guid="018cee49e6f68df468022c37208c2665" ResourceName="AssetsHotfix/UI/UIArt/Atlas/SelectMode" />
       <Asset Guid="022e3a7a56dcd374b99c91524e195749" ResourceName="AssetsHotfix/UI/UITemplate/ScrollView/VGridScrollView" />
       <Asset Guid="02937efeeafb8f54d829cc709ea1f4ad" ResourceName="AssetsHotfix/UI/UIArt/AtlasCollection/SettingSubMenu" />
+      <Asset Guid="02e92f46cbcefda45ab5a4effaa5584e" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="03cd95365a770834699b1ec0e42441b3" ResourceName="AssetsHotfix/Scenes/RaceScene_1" />
+      <Asset Guid="04137b3b8b694ec4abfdeab49f853c4d" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="04480931fc7c46c45872d2d3d26dd4b4" ResourceName="AssetsHotfix/EntityResources/DeerExample/Materials" />
-      <Asset Guid="0692a18e71e6776488ed639b6ffd5251" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="0871c8d1fe1ccd74185ac477b5bbe7cc" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="06ecc5d6c13abb240818abd3707cd323" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="08d236474bae29740a018353cc98ec76" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="09c2bfe318c4ce04087bd2900e4dca55" ResourceName="AssetsHotfix/UI/UIArt/Atlas/SelectRace" />
+      <Asset Guid="0a366118257c3ef46984ed5dc14c7187" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="0b8ddec19039a8245b8deb6222a7199b" ResourceName="AssetsHotfix/Scenes/RaceScene_2" />
-      <Asset Guid="0bc34e4166d45d840a635e0367eed47f" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="0c91c426b97f1c34d95c6741832df21b" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="0ca510a461ccf2a4b9268f485f3aa264" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="0cc9da12cb75077499184abe218050de" ResourceName="AssetsHotfix/UI/UIArt/Texture/Settings_SubMenu_Background" />
-      <Asset Guid="0cf11fac715635a498ed1758fccec01e" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="0f49dca3b85df744a923b72c517c081a" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="102e820a7b9321d42b127d3104a7ca5a" ResourceName="AssetsHotfix/UI/UIForms/UILoading/UILoadingForm" />
-      <Asset Guid="1114e83a9e779374eb35af5c7f2ee64e" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="11f2a592be5920842b8f65ed04d23b61" ResourceName="AssetsHotfix/UI/UIForms/UIGamePlay/UIGamePlayForm" />
-      <Asset Guid="12e4856672c2ce14aac7dd20b31c0241" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="13ffd2aa0c8d0084abd5a38a7b52573f" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="16f323200bad0654b8df82f6149e9b1c" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="16530ef7019526345b30d997434a1a74" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="17ec5b8f543c59345bc1257ec50c7228" ResourceName="AssetsHotfix/Scenes/Login" />
-      <Asset Guid="1801442da6f11ca408878fefbd163e36" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="1850660777c920f4191d0c79489a5a8d" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="1863a76f07e98694f962d8b379fe416e" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="1933ea8013f08d644bac0beabf442d59" ResourceName="AssetsHotfix/UI/UITemplate/ScrollView/HListScrollView" />
+      <Asset Guid="1984df0b660ee5443bea7e539d4d31ba" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="19b3277481c9b5e43bb5586c5e931856" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="1a015c8683c7a364bb4662a8cb1a00d2" ResourceName="AssetsHotfix/UI/UIArt/Atlas/Pause" />
       <Asset Guid="1aa33f099cc2369499170e91099c1324" ResourceName="AssetsHotfix/EntityResources/DeerExample/Materials" />
+      <Asset Guid="1b266f69bc63c0e4d8a7607c5282248b" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="1cc37c9ac1bae824db4b15424a091c09" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="1cddfc3979dc2144098a87b4a2568741" ResourceName="AssetsHotfix/UI/UIArt/AtlasCollection/Icon" />
+      <Asset Guid="1db3d53b2c732174a9fed26a882b0f4a" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="1dd1fab58417130449a514c7d20423df" ResourceName="AssetsHotfix/UI/UIArt/Texture/HubSettings_Background" />
+      <Asset Guid="1ee1d53af86931841998b4c4d57ac3c3" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="227f8b54bf3f57b4392a62306a97b840" ResourceName="AssetsHotfix/UI/UIHealthBar/UIPlayerHealthBar" />
       <Asset Guid="22f8dd74c70316046866d180dea83aed" ResourceName="AssetsHotfix/EntityResources/DeerExample/Models" />
       <Asset Guid="2364e527f40efb247bfa2fba02eb051b" ResourceName="AssetsHotfix/Sound/Music/Menu_Music" />
-      <Asset Guid="23b6c08273c61414091451287f826131" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="24001f52b10812343aecbe31b96fc633" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="24f9961372fb6c2439df9fbc7f4c0f79" ResourceName="AssetsHotfix/Scenes/Main" />
-      <Asset Guid="253a607c55007e9438f163927d21e159" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="255195c037717bd479546418eff08f34" ResourceName="AssetsHotfix/EntityResources/DeerExample/Textures" />
-      <Asset Guid="25d14e760b42d1a45afa3f901538d45f" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="27d1f2169e5c5ee4b8c718a9324d6fa8" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="2a8d869e7c2bac74b90083336537d023" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="30966e840093d734e88d3bdd539bb204" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="25efd2d62ae8ae647b91cc6b49456de9" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="28239dfd5d6b363429afb3a3797fe6cc" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="29b2fdaf927b4a34b844ebeb0c723d5a" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="2b1abe85ecc1f9243aa2f5bc61460fff" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="2c8aafe5b8a84e84f8c19db38a82543a" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="2d7473266de21e4409ca2961435676e1" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="3341c3a9f74a62f4eacc6699b3691c7b" ResourceName="AssetsHotfix/UI/UIArt/AtlasCollection/Menu" />
+      <Asset Guid="33594e1cf5c2e5c41b1071923e00af1e" ResourceName="AssetsHotfix/Assemblies/Hotfix" />
       <Asset Guid="3503b9e33b88b9a44b5a2737acbf74ca" ResourceName="AssetsHotfix/UI/UIArt/Atlas/Menu" />
-      <Asset Guid="3546da4b0122b7c4b889bc58f6b733cd" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="35ae0d080c08b04429d111abc56fbe14" ResourceName="AssetsHotfix/UI/UIArt/Texture/ChooseVehicle_Background" />
-      <Asset Guid="36389d39eeb24eb4ea28494da357059d" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="36c36713ec6ffda48a0a7f7d26d49b0b" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="37d5d74a1a133e840a42a673fc17d1d4" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="397b7bc6b9b47ed43b9a855c4e992dc5" ResourceName="AssetsHotfix/EntityResources/DeerExample/Materials" />
+      <Asset Guid="39d42d0b46b30744db09a28396209407" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="3b2d997a5f4451d4a8f7f7cc5d8b4658" ResourceName="AssetsHotfix/UI/UIArt/Atlas/SettingSubMenu" />
-      <Asset Guid="3c974c57fc518774a8627576537888e4" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="3d38cc6756dd28546b196a894b5d6182" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="403f41a11d7f8234b8a503f4d642f6b5" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="3e9f18a60e76a134182b188d04803e69" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="3f0dffd596941d34cac8b7ecefed90dc" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="42691d7ec589dab40b5259057352c2e2" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="430b46d93c65fc84694a64182ade18e0" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="43898573fb4eed048813f2a812cc2354" ResourceName="AssetsHotfix/UI/UIArt/Atlas/Settings" />
+      <Asset Guid="459c0e98f9949c845b8cedd1482b6f78" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="466741b236a7df54fa016d0554d0d255" ResourceName="AssetsHotfix/UI/UIShootText/Image_ShootText" />
+      <Asset Guid="47fb86fb26a2d964e8c780998185dfa6" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="48591b2c571784a4aa2fed5bf35023e8" ResourceName="AssetsHotfix/EntityPrefabs/DeerExample" />
       <Asset Guid="48cfeef2374d66943b2c09ffcf3949f6" ResourceName="AssetsHotfix/UI/UIForms/UICharacterSelection/UICharacterSelectionForm" />
+      <Asset Guid="4a2f18227377826469064143ad29101e" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="4afddab3b85054f48898fb3a7c65e70c" ResourceName="AssetsHotfix/UI/UIArt/AtlasCollection/Settings" />
+      <Asset Guid="4b929f9aa93e0224d9e7d5f10de6f168" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="4bd7e5ae70687e842ae488bc86ef53e2" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="4c61d2a8aa112054f9271eba598d510f" ResourceName="AssetsHotfix/UI/UIArt/AtlasCollection/Others" />
-      <Asset Guid="4ce5d6b4d5dbb21488fc27ddbf9f7a48" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="4d7a5d3dd650fe547b2071bf06638d0a" ResourceName="AssetsHotfix/EntityResources/DeerExample/Models" />
-      <Asset Guid="4de75f2d051aad3419d020a5af3b72bb" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="4f1428866690c3f4d92a7b3f06c16e09" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="4fde46afd41051642ade17a899d8e954" ResourceName="AssetsHotfix/EntityPrefabs/DeerExample" />
-      <Asset Guid="507d7196c0e087848a69d2605d8abe19" ResourceName="AssetsHotfix/Assemblies/Hotfix" />
       <Asset Guid="545c346f2adb7b14fbf9d03f935ece4f" ResourceName="AssetsHotfix/UI/UIArt/AtlasCollection/SelectRace" />
       <Asset Guid="54b9c5c8dc8b17f4fbc0a2a09eb91f86" ResourceName="AssetsHotfix/Scenes/RaceScene_3" />
       <Asset Guid="54e670bec28d8ec45932b61837750000" ResourceName="AssetsHotfix/EntityResources/DeerExample/Materials" />
       <Asset Guid="55132911c10aa8047bd0d678757f5794" ResourceName="AssetsHotfix/UI/UITemplate/UIHealthBar" />
-      <Asset Guid="5620fc33c639c2042b83c5ddd5c458d2" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="5639ad438e4585e4f9fd0e0978a4aa0b" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="55a1bcf3ffeac1047bce3da36806b737" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="56c3b222b5f9329408e788cb5f734add" ResourceName="AssetsHotfix/UI/UIArt/Texture/loading_bg" />
-      <Asset Guid="56fa6cefe7a4e5e4caf53ac735c73232" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="5710a416362c6484f9990b19a5391383" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="57a780f182fc7f9408d8f6231fac60aa" ResourceName="AssetsHotfix/EntityResources/DeerExample/Materials" />
-      <Asset Guid="5e16bcdd717173048a3d3766e9bad373" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="611829959a86b8b4b9760c8fde495221" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="61b3cca937243984582b7d938a7d2aa2" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="59158aa4846074147b74ff23d1600468" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="5c899d7c145f2984196e140bb2e46f71" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="5dac04a2cb497d343a4155bcc2399e25" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="60a7e8faf4c0e1a4e92841cbb9a3f3b5" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="61b6f06d6bbc0554c9fd28da8df27295" ResourceName="AssetsHotfix/EntityPrefabs/DeerExample" />
-      <Asset Guid="61fe3617f670cb747aa0cc9248e4ab26" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="622acad4fdaf61543a0bf02f50958256" ResourceName="AssetsHotfix/UI/UIForms/UIGameStop/UIGameStopForm" />
-      <Asset Guid="6274f2f8ef16b024587a523039c3c6e5" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="62f31a47eade44b4da36f17771096948" ResourceName="AssetsHotfix/EntityResources/DeerExample/Materials" />
-      <Asset Guid="663a305ca5ce89749805687c74d8b3a4" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="64ddbe212600b2e438157cf8c07c54d7" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="657c3383bb3fdb748beb849c83b544e6" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="657c802a6e76d6642aa1b1b4ace32f17" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="66ff81a4798af5d409fb8122e77b4a57" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="6a059a129e1575d4fb9a6b8abce19c6e" ResourceName="AssetsHotfix/UI/UITemplate/UIButton" />
-      <Asset Guid="6a120e45553b32046be687c3b790de11" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="6af743482acb29c4db2e16218ec8124a" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="6c52a0ab67c9d9b41985369362d389c2" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="6e61a12f0edc98d4180871080c1f40fa" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="6d165498037c9d94ebae6f5b949af4d9" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="6f9b21a01f71f7a41b4100a1e96a18bd" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="721b8a09e46b2924b9cdbe5ea9b262d5" ResourceName="AssetsHotfix/UI/UIArt/Atlas/Others" />
       <Asset Guid="7247e1fea0760b54caa253020097fcdf" ResourceName="AssetsHotfix/UI/UITemplate/ScrollView/ScrollVItemPrefab" />
-      <Asset Guid="7327e35e9b3b6dd4c9f5e4b6e427e0bd" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="745e65d5ee916dd47944050290a22205" ResourceName="AssetsHotfix/UI/UITemplate/Joystick/Joystick" />
       <Asset Guid="756cc686b2ac75c45b2ac4a3384a297b" ResourceName="AssetsHotfix/EntityPrefabs/DeerExample" />
-      <Asset Guid="796d97330fb12694d8630b5a9f218475" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="79b759f1822aa334ba4257ee0b26b063" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="773a8290bc9871245be962c7c8f165c1" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="7a1da81cd6d4d6e41a36c6e26523dba8" ResourceName="AssetsHotfix/UI/UIForms/UIBag/UIBagForm" />
+      <Asset Guid="7c2b505d14090b44794cf64532ba8399" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="7c6dd281b8aecc94f9311258f9c68c26" ResourceName="AssetsHotfix/EntityResources/DeerExample/Materials" />
-      <Asset Guid="7cc5330a9801a9748adca1e48c8a03da" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="7d76f3832c72b1843b2cab64c61882d5" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="7c8da20992435b248bab0cfa3ef95611" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="7fec670294593b64e9dfac8731b13051" ResourceName="AssetsHotfix/UI/UIForms/UISettingAudio/UISettingAudioForm" />
       <Asset Guid="805ea66278d2b704c87c0f6acc996932" ResourceName="AssetsHotfix/UI/UIForms/UIGameSettle/UIGameSettleForm" />
       <Asset Guid="80a9390956026d548935e7833d3257fa" ResourceName="AssetsHotfix/UI/UIShootText/ShootText_Pure" />
+      <Asset Guid="81698f97ce09d364dae912d07eb58778" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="82511fec482182d419fa1d98dbc674d6" ResourceName="AssetsHotfix/EntityResources/DeerExample/Materials" />
-      <Asset Guid="82f5246594c32ba4c8ed3070d6867e92" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="834727237ad43674db061e96d536d32b" ResourceName="AssetsHotfix/Sound/Music/Game_Music" />
       <Asset Guid="834c9dd3e41074b4684245b729aa5f9e" ResourceName="AssetsHotfix/EntityResources/DeerExample/Materials" />
+      <Asset Guid="84ac058447980f442ac22a2d20d61ce6" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="86ebcd38ac148e2489afdfbaa524724b" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="87c1c3e3a81081d46806404f8b4e361f" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="898f9d7defd9c8347b757df89f26dc45" ResourceName="AssetsHotfix/EntityResources/DeerExample/Materials" />
       <Asset Guid="8a3f541ec81331c498908be4132a45b6" ResourceName="AssetsHotfix/EntityResources/DeerExample/Textures" />
       <Asset Guid="8cc4ca72a8284d94cb7bd97506f4faa5" ResourceName="AssetsHotfix/UI/UIForms/UISettings/UISettingsForm" />
-      <Asset Guid="8cf2590861700b04f9fb7a5639cd0be2" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="8ef9634dc302ab9439a3290de0630ed4" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="907db7c0dd27c764190337cfc06fc610" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="91b0bc8512495eb478187abb86e51fd0" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="942f148b937de19498862e168ee10fbb" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="965bb86b981002e49bfe784f1db1d4fc" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="8d1072de1785ee241972c6ec5a528069" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="8e4d9893fff4b7c41ad7db4867277420" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="8f93e995e24aca148b9e4dd5c3516fe7" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="941b86bbfff44934e8d1a6788e05bfa4" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="964a45e9b14952b43bb8c9e10f96a901" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="975d78522d5bdca42a5af541a724aef2" ResourceName="AssetsHotfix/UI/UITemplate/Progress" />
       <Asset Guid="981a0351a321c2044845c5b024a1dfa2" ResourceName="AssetsHotfix/EntityPrefabs/DeerExample" />
-      <Asset Guid="9a6096d274da20a44aec8f07519446c7" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="9bd4c90323fbfd944a009050fb4d68c6" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="9c7b0e7398dd2d14e9557b9039acd07d" ResourceName="AssetsHotfix/EntityResources/DeerExample/Shaders" />
-      <Asset Guid="9d5d3797a86de1f4abb96975fc976f01" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="9b3d3d0f35c2803438abdcb4eb25c4c4" ResourceName="AssetsHotfix/Assemblies/Hotfix" />
       <Asset Guid="9ee43f6a9dc4a7642834a65f2836b5f2" ResourceName="AssetsHotfix/EntityResources/DeerExample/Materials" />
-      <Asset Guid="a2fdd12671df19e4881279ce5d714b14" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="a09f636e8b7e53245af362307c706c67" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="a493fd7876190a04b972bf7b3f90d962" ResourceName="AssetsHotfix/UI/UITemplate/ScrollView/HGridScrollView" />
       <Asset Guid="a4ecbc6afc651d94888a4b56e95f846f" ResourceName="AssetsHotfix/UI/UIForms/UIBag/UIBagForm_SubUI" />
-      <Asset Guid="a52f63f3d61b0054dbdc6fbf7c7533fa" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="a6a881207f550c444b5bbafbc698f606" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="a5c42b81d0ca63745a5c39df60db559b" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="a803b0eeb78fa374a87a6e8f0b203fa3" ResourceName="AssetsHotfix/Sound/UISound/Fx_02_V2" />
-      <Asset Guid="a80c198ed734d794d8d2e7cf489ce086" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="a8aa27207e1901b42aba6646e3baaf21" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="a972cae226f057a4495663dfdbbf131c" ResourceName="AssetsHotfix/UI/UIArt/Texture/SelectRace_Background" />
       <Asset Guid="a9bb0d5df7af0c840935b6ee51debd27" ResourceName="AssetsHotfix/UI/UIArt/Texture/login_bg" />
-      <Asset Guid="ae575f1d34ca45f4b92ee7939f6404e2" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="b0d47b5c7341d3c49867c160aa16195a" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="b1ab36efd861cf949b8390e4d0d613af" ResourceName="AssetsHotfix/UI/UIForms/UISettingGameOptions/UISettingGameOptionsForm" />
-      <Asset Guid="b20e297a31f68744aa67aeeef65501b6" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="b2daa51d292351d42a8b8c06ea8ee681" ResourceName="AssetsHotfix/EntityResources/DeerExample/Materials" />
       <Asset Guid="b329cef85d01a66499fffb2938b20bad" ResourceName="AssetsHotfix/UI/UIForms/UIRaceSelection/UIRaceSelectionForm" />
-      <Asset Guid="b3d6f34af9f05ea4ea5e16c6d7a5b483" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="b4e79ea7be741a743bb7382d39f62e61" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="b572160a08cdb3b4cb4f1b1bc6ca96f5" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="b5a5fcbac4609454eadc4f266ccee0b9" ResourceName="AssetsHotfix/EntityResources/DeerExample/Models" />
       <Asset Guid="b5a74c2b51c3caa4d9c4c7952c063747" ResourceName="AssetsHotfix/EntityPrefabs/DeerExample" />
       <Asset Guid="b5b6e5e5b63377b4e9b3556b6812194d" ResourceName="AssetsHotfix/UI/UIForms/UITips/UITipsForm" />
-      <Asset Guid="b651f7fde0a349a4699bc6a526f04aba" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="b7e42a5dcf7faaa478bb6b71cd208acd" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="b77a63ba2413be74694eeb0e885d4802" ResourceName="AssetsHotfix/Assemblies/Hotfix" />
+      <Asset Guid="b860b547502d1334b9702abec3b2f29f" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="b8ad02aa4fb00fb4f84b3968c201320a" ResourceName="AssetsHotfix/UI/UIArt/AtlasCollection/SelectCharacter" />
-      <Asset Guid="b8d040cf02f1dc747876d87d08597b01" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="ba4fe5023322d6746bddcb56f3b28164" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="be0163d7413016245befa59d533f5084" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="b8b29b24cc8fec149aaf874c92311035" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="b98d7a1907886e84e890089f0b8cd386" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="b9eb136655e371d47b32b025e89f9c1e" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="bb66ccc1dabf2104cb8db67cbe206d8f" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="bc5547163cbf1be4d87fc06794abf21f" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="be4e15397e627654d8385eaf3d2fc658" ResourceName="AssetsHotfix/UI/UIArt/Texture/MainMenu_Background" />
-      <Asset Guid="bf692c17370058c4e96063c26948d630" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="c06aba85c7932944d94b0f486411ee98" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="c3286e4983ede4d4498923f7aa98a199" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="be73b893ccf3d3441b84f9ffa95ee94c" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="c0d42a42eb3cce6449b744cea15782bb" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="c3bacb295d4014847a8ef29520f9d1a2" ResourceName="AssetsHotfix/UI/UIShootText/Text_ShootText" />
+      <Asset Guid="c63932e6668149447a024e89a8c4850f" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="c7779f6b5a9e50d4e9963aafb1bbfe53" ResourceName="AssetsHotfix/EntityPrefabs/DeerExample" />
-      <Asset Guid="c8cc0a3c3743e8045951a5e5f0a16e04" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="c9df1a3f379c05b4ab0100637a5110af" ResourceName="AssetsHotfix/UI/UIArt/Atlas/SelectCharacter" />
-      <Asset Guid="cb8182c82a0c6984c9a539550756e967" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="cd517d6c6232bda45aa1ff814e647540" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="cd5c8e67c0b7f29459d50a27627c3d53" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="ce49e81891eda504388a0463012d32a4" ResourceName="AssetsHotfix/Assemblies/Hotfix" />
+      <Asset Guid="cdb4c50ce75629648b7651d5587b5c53" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="cf8830546239dcc46b316f0be5baa784" ResourceName="AssetsHotfix/Sound/UISound/Fx_01_V2" />
       <Asset Guid="d021a4349078f974ca8eb3f903f1fbd6" ResourceName="AssetsHotfix/UI/UITemplate/UIToggle" />
-      <Asset Guid="d453b2d1ef1917340a29a5e7536f1de0" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="d52fa4b3e5e4c6b4fa6d6106d3ee4e45" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="d2af3bd86522cab4ab88a5235256f328" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="d5ac5cc365a9d7f469a91f84c485f9f2" ResourceName="AssetsHotfix/UI/UITemplate/UIModel" />
       <Asset Guid="d64bc9831e9a3c44abd5731e44132c7a" ResourceName="AssetsHotfix/Scenes/RaceScene_0" />
       <Asset Guid="d759832436236de43b79fe23de3f41e6" ResourceName="AssetsHotfix/EntityPrefabs/DeerExample" />
       <Asset Guid="d7c3d93930b9e334cb95e70cb6e62c3b" ResourceName="AssetsHotfix/UI/UIForms/UILoadingScene/UILoadingSceneForm" />
-      <Asset Guid="d8814d8f0d8adeb40903a5d2646e51aa" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="d91213d2c7c0e3b4d9ef1784e5184a4c" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="d9b36ed0d3415ec469b3f5e90d903fd9" ResourceName="AssetsHotfix/EntityPrefabs/DeerExample" />
       <Asset Guid="da27e40db716bc04794c3c5ddc3a475c" ResourceName="AssetsHotfix/UI/UIForms/UIGameMode/UIGameModeForm" />
-      <Asset Guid="da6f18798f80f0f49b6c8405d82048b7" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="da72620d1c1af81458833d8aceedefcd" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="da8f4d9641c885949bba42d7bc82104b" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="dac971617c144e64ca013b70db38cb1a" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="dbc1d4bc6018f1f4f928156f5e3ffe21" ResourceName="AssetsHotfix/GameConfigs/MainCameraBlends" />
+      <Asset Guid="df1a15d60316ac548b96439d2e363974" ResourceName="AssetsHotfix/Assemblies/Hotfix" />
       <Asset Guid="df77fc3bb05acbb4280cc2736c030e48" ResourceName="AssetsHotfix/UI/UIArt/Atlas/Icon" />
-      <Asset Guid="e00ac52e0e5cf5e4d80dd02533a63248" ResourceName="AssetsHotfix/Assemblies/Hotfix" />
-      <Asset Guid="e14655ddb1a6e4647bbfddb139c9dcdf" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="e29b7ebd5934cdc43b1343d496268250" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="e319643f1c5a01c498501d61cc05328d" ResourceName="AssetsHotfix/EntityResources/DeerExample/Textures" />
       <Asset Guid="e41de5d16c3cfa04da3d39b8aebad451" ResourceName="AssetsHotfix/UI/UIForms/UIDialog/UIDialogForm" />
-      <Asset Guid="e51e9146e6278f649aaf9de91bcf17b4" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="e57c0013be8a85a4c96d984ec88f68d4" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="e67cd5516314b5f4f9db9758b54c835d" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="e7317b5dc919d734e8e1d43740672316" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="e7e633af644a7b34292a79bfe6878d53" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="e827f6256d45d1a4c8936370bebe2973" ResourceName="AssetsHotfix/UI/UITemplate/UISpriteAnimation" />
+      <Asset Guid="e8730f5d31fafcf408bc2651a4e02dd6" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="e920ef901cc460540961c5d6cac84e3e" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="e9957e6712c5de446a120dfeb75d425f" ResourceName="AssetsHotfix/EntityResources/DeerExample/Models" />
-      <Asset Guid="ea11e46da8e34e940a891ff321d5fe51" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="ea209704d8208db4494440eb8e590f20" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="ea394bac6d0672c4c8c84742c797b126" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="eb8a17d9eeaf7634084b3e278e3ef4b0" ResourceName="AssetsHotfix/UI/UIForms/UILogin/UILoginForm" />
       <Asset Guid="ec2ada8d5b3d0154a8edbefa51801e76" ResourceName="AssetsHotfix/UI/UITemplate/UIInputField" />
+      <Asset Guid="ec8e3274b01794e488ebf8ed7b4ab66d" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="ed7dfbb703ef3a44c830907dba4e9c7d" ResourceName="AssetsHotfix/EntityResources/DeerExample/Materials" />
       <Asset Guid="ee434b8e75f92804ca01e3be759e7c7f" ResourceName="AssetsHotfix/UI/UITemplate/UIForm" />
-      <Asset Guid="f10865a80d511234d86f4e0d8bd53304" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="eed9d3c929f7a1a41a2c99119d27afa1" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="f1433529e0c41854c8981aa9c9eeaf10" ResourceName="AssetsHotfix/UI/UIArt/AtlasCollection/Pause" />
       <Asset Guid="f29a796feeff1ca40ac39825c1460b0e" ResourceName="AssetsHotfix/UI/UIForms/UIMenu/UIMenuForm" />
-      <Asset Guid="f2ca1af68522ef54a8587e13fea9c676" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="f31ad8864d53f144a99058265f18f1ee" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="f3ab0d53e9c425d4da9724fab4bfd7d9" ResourceName="AssetsHotfix/GF" />
+      <Asset Guid="f3d07caf8ce376240a966300db94c202" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="f4fa68baee1efc34e801c1853c42e375" ResourceName="AssetsHotfix/UI/UITemplate/ScrollView/VListScrollView" />
+      <Asset Guid="f6b542907e6777d4a8bc60bb16533c08" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="f6b9908100d83b743b9d06053913ffc3" ResourceName="AssetsHotfix/UI/UIArt/AtlasCollection/SelectMode" />
       <Asset Guid="f6c4890c8f316b54e99fe1ad0a90f53a" ResourceName="AssetsHotfix/EntityPrefabs/DeerExample" />
-      <Asset Guid="f6d136db757db9e40ad6702a52856dbd" ResourceName="AssetsHotfix/Assemblies/AOT" />
-      <Asset Guid="f8382f3e34a808643b0895dba1a3b6ae" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="f8e646084847add4ea6950ebbe2c994c" ResourceName="AssetsHotfix/EntityResources/DeerExample/Models" />
-      <Asset Guid="f904d2783d6f01946a15edc604821a63" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="f948cddd52354284e9472f8d1707a4e1" ResourceName="AssetsHotfix/EntityResources/DeerExample/Models" />
-      <Asset Guid="fb82b0a49ba51dc4aa9173e56c93bbc8" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="fb8815fe37d704144a88f0900fc9d29e" ResourceName="AssetsHotfix/Assemblies/AOT" />
       <Asset Guid="fd3b7b3d85d29aa4b9f03b7e8836bc0b" ResourceName="AssetsHotfix/EntityResources/DeerExample/Materials" />
-      <Asset Guid="fe6a6a2da0d7545479dde493f67546f4" ResourceName="AssetsHotfix/Assemblies/AOT" />
+      <Asset Guid="fdfd4b881aefd1d4bb221e8d628387dc" ResourceName="AssetsHotfix/Assemblies/AOT" />
     </Assets>
   </ResourceCollection>
 </UnityGameFramework>

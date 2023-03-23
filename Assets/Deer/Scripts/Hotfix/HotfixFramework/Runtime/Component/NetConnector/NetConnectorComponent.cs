@@ -15,6 +15,7 @@ using Deer;
 using Pb.Message;
 using UnityEngine;
 using UnityGameFramework.Runtime;
+using Log = UnityGameFramework.Runtime.Log;
 
 [DisallowMultipleComponent]
 [AddComponentMenu("Deer/NetConnector")]

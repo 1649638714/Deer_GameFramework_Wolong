@@ -3,6 +3,7 @@ using GameFramework;
 using GameFramework.Event;
 using UnityEngine;
 using UnityGameFramework.Runtime;
+using Log = UnityGameFramework.Runtime.Log;
 using WebRequestFailureEventArgs = UnityGameFramework.Runtime.WebRequestFailureEventArgs;
 using WebRequestSuccessEventArgs = UnityGameFramework.Runtime.WebRequestSuccessEventArgs;
 

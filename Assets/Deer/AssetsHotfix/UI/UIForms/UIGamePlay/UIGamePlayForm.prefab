@@ -5434,7 +5434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _fillProxy: {fileID: 0}
-  _fillAmount: 0.5
+  _fillAmount: 0.2
 --- !u!1 &4136628450267697807
 GameObject:
   m_ObjectHideFlags: 0
@@ -7480,7 +7480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _fillProxy: {fileID: 0}
-  _fillAmount: 0.5
+  _fillAmount: 0.2
 --- !u!1 &6082789267553036406
 GameObject:
   m_ObjectHideFlags: 0
@@ -8582,7 +8582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _fillProxy: {fileID: 0}
-  _fillAmount: 0.5
+  _fillAmount: 0.2
 --- !u!1 &7012940404511736656
 GameObject:
   m_ObjectHideFlags: 0

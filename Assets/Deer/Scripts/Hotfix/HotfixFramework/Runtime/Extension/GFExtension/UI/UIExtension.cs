@@ -13,6 +13,7 @@ using GameFramework.UI;
 using Main.Runtime;
 using UnityEngine;
 using UnityGameFramework.Runtime;
+using Log = UnityGameFramework.Runtime.Log;
 
 /// <summary>
 /// Please modify the description.
